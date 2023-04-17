@@ -30,4 +30,16 @@ if guess > item:
 else: 
  low = mid + 1
 ```
+---
 
+### Big O notaion:
+###### Algorithm times are written in a big O notation.
+* ##### is special notation that tells you how fast an algorithm is as it's let you to compare the number of operaions (how fast the algorithm grow)
+* ##### Algorithm speed isn't measured in seconds, But in terms of growth of an algorithm.
+  * ##### O(log~2~n) ---> Binary-Search
+  * ##### O(n) ---> Linear-Search
+  * ##### O(n*logn) ---> Quick-Sort
+  * ##### O(n^2^) ---> Selection-Sort
+  * ##### O(n!) ---> Traveling-Salesperson
+
+---
