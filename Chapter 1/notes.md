@@ -1,6 +1,7 @@
 # Intorduction To Algorithms
 
-* #### Algorithms: is a set of instructions for completing tasks
+* #### Algorithms:
+  * ##### is a set of instructions for completing tasks
 
 -------
 
