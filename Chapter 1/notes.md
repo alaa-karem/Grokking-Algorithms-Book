@@ -5,7 +5,7 @@
 -------
 
 * ### What is Binary-Search mean ?
-  * ###### is an algorithms that it's input is a sorted list of elements. And if this element I search about is there, the binary search will return its **position** and if not, binary search will return null  
+  * ###### is an algorithms that it's input is a sorted list of elements. And if this element I search about is there, the binary search will return its **position** and if not, binary search will return **null**  
 
 -------
 * ### But, How I can use binary search and Why?
@@ -16,4 +16,18 @@
   
  --------
 
+|element1|element2|element3|element4|element5|element6|element7|element8|element9|element10|element..n|
+|---|---|---|---|---|---|---|---|---|---|---|
+|3|5|10|17|35|50|74|79|120|138|200|
+
+```python
+mid = (low + high) / 2 
+guess = list[mid]
+if guess == item:
+ return mid
+if guess > item: 
+ high = mid - 1
+else: 
+ low = mid + 1
+```
 
